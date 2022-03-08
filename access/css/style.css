@@ -96,7 +96,6 @@
 .login {
     height: 450px;
     width: 450px;
-    margin-top: 80px;
     margin-left: 80px;
     background-color: orange;
     color: #fff;
@@ -175,7 +174,6 @@ a {
     transform: rotate(45deg);
     margin-bottom: 35px;
 }
-.wapperrr {
-    margin-top: 70px;
-    display: flex;
+.wapperr:nth-child(2) {
+    margin-top: 100px;
 }
