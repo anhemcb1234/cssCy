@@ -1,0 +1,152 @@
+.wapperr {
+    display: flex;
+}
+
+.box {
+    height: 500px;
+    width: 500px;
+    background: rgb(61, 58, 58);
+    margin-top: 80px;
+    margin-left: 80px;
+    border: 1px solid orange;
+}
+
+.box1, .box2 {
+    height: 200px;
+    width: 200px;
+}
+
+.box1 {
+    background-color: red;
+    margin-bottom: 100px;
+    border: 1px solid blue;
+}
+
+.box2 {
+    background-color: yellow;
+    float: right;
+}
+
+.box-1 {
+    height: auto;
+    width: auto;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.boxodd1, .boxodd2 {
+    height: 100px;
+    width: 100px;
+}
+.boxx1, .boxx2 {
+    display: flex;
+}
+.boxodd1:nth-child(odd) {
+    background-color: orange;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.boxodd2:nth-child(even) {
+    background-color: orange;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.boxx {
+    display: flex;
+}
+
+
+
+.menu {
+    height: 640px;
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: rgb(53, 50, 50);
+}
+.head {
+    background: red;
+    height: 100px;
+    margin-bottom: 40px;
+}
+.content {
+    display: flex;
+}
+.content-left, .content-right {
+    height: 350px;
+
+}
+.content-left {
+    background-color: aqua;
+    flex: 1;
+    margin-right: 20px;
+}
+.content-right {
+    background-color: bisque;
+    width: 142px;
+}
+.footer {
+    width: 100%;
+    background-color: brown;
+    height: 100px;
+    margin-top: 50px;
+}
+
+
+.login {
+    height: 450px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left: 80px;
+    background-color: orange;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 245px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+input[type="text"] {
+    border-style: solid;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.button {
+    width: 245px;
+    background-color: #ce71d7;
+    text-align: center;
+    border-radius: 10px;
+    padding: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer
+}
+.link {
+    width: 242px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    float: right;
+}
